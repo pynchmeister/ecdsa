@@ -15,7 +15,7 @@ const P: u64 = 2u64.pow(256) - 2u64.pow(32) - 2u64.pow(9) - 2u64.pow(8) - 2u64.p
 const A: u64 = 0;
 const B: u64 = 7;
 
-// Weierstrass: (GENERATOR_POINT_Y^2 = GENERAOR_POINT_X ^3 + B) % P
+// Weierstrass: GENERATOR_POINT_Y^2 = GENERATOR_POINT_X^3 + B % P
 
 pub struct EcAlgo {
 
